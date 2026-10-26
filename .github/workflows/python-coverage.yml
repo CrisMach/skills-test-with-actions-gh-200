@@ -39,6 +39,7 @@ jobs:
           MINIMUM_ORANGE: 70
 
       - name: Fail if below threshold
+<<<<<<< HEAD
         run: coverage report --fail-under=90
 - name: Set up Python
   uses: actions/setup-python@v4
@@ -64,3 +65,6 @@ jobs:
 
 - name: Fail if below threshold
   run: coverage report --fail-under=90
+=======
+        run: coverage report --fail-under=90
+>>>>>>> 9fd317a (New Python-coverage.yml)
